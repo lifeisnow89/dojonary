@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    color: black;
+}
+
+.nav_bar {
+    display: inline-block;
+    background-color: lightgray;
+    align-items: center;
+    margin-left: 275px;
+    padding: 20px;
+}
+
+#logo {
+    height: 20px;
+    margin: 5px 10px;
+    padding-bottom: 10px; 
+    font-size: large;
+}
+
+.logoutbtn {
+    background-color: rgba(14, 146, 228, 0.912);
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+    color: white;
+    padding: 5px 15px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.row {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.col-1, .col-2 {
+    padding: 10px;
+    flex: 2;
+}
+
+.col-2 {
+    flex: 1;
+}
+
+.ninja-card {
+    display: flex;
+    border: 2px solid black;
+    font-size: larger;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.ninja-card2 {
+    display: flex;
+    border: 2px solid black;
+    font-size: larger;
+    height: 200px;
+}
+
+.nin {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.center {
+    padding: 75px;
+}
+
+.card {
+    display: block;
+    border: 2px solid black;
+    padding: 10px 5px;
+}
+
+.u {
+    font-weight: bold;
+}
+
+.word {
+    margin: 5px 15px;
+}
+
+.right-card {
+    display: block;
+    align-items: center;
+    margin: 5px;
+    font-size: x-large;
+    height: 150px;
+    
+}
+
+.def {
+    background-color: rgb(84, 167, 84);
+    box-shadow: 5px 5px;
+    margin: 10px;
+    padding: 5px 20px;
+    
+}
+
+.likes {
+    background-color: rgb(233, 233, 24);
+    box-shadow: 5px 5px;
+    size: 30px;
+    margin: 10px 15px;
+    padding: 5px 10px;
+}
+
+p {
+    display: inline-block;
+    align-items: center;
+    padding: 20px;
+}
